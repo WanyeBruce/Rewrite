@@ -12,7 +12,7 @@
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body 
 
 [mitm] 
 
