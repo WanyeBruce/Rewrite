@@ -12,11 +12,12 @@
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/Duet.js
+https://rdp.duetdisplay.com/v1/users/validateReceipt url script-response-body
+https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/Duet.js
 
 [mitm] 
 
-hostname = buy.itunes.apple.com
+hostname = rdp.duetdisplay.com*/
 
 *******************************/
 
