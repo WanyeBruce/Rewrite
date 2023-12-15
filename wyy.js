@@ -2,10 +2,10 @@
 致敬伟人
 [rewrite_local]
 # > 网易云解锁VIP
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://gist.githubusercontent.com/WanyeBruce/deb47972208264de8e629a51439f2f56/raw/wyy.js
-^https?:\/\/interface3\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query url script-request-header https://gist.githubusercontent.com/WanyeBruce/deb47972208264de8e629a51439f2f56/raw/wyy.js
-^https:\/\/interface3\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage url script-request-header https://gist.githubusercontent.com/WanyeBruce/deb47972208264de8e629a51439f2f56/raw/wyy.js
-^https:\/\/interface3\.music\.163\.com\/eapi\/playermode\/ url script-request-header https://gist.githubusercontent.com/WanyeBruce/deb47972208264de8e629a51439f2f56/raw/wyy.js
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/wyy.js
+^https?:\/\/interface3\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query url script-request-header https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/wyy.js
+^https:\/\/interface3\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage url script-request-header https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/wyy.js
+^https:\/\/interface3\.music\.163\.com\/eapi\/playermode\/ url script-request-header https://raw.githubusercontent.com/WanyeBruce/Rewrite/main/wyy.js
 [mitm] 
 hostname = *.music.163.com
 */
